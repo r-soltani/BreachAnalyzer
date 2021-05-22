@@ -1,9 +1,11 @@
 ## BreachAnalyzer
-The objective of this project is to build the preliminary basis for an open-source application that enables automated data retrieval, analysis, and visualization of breach and stock data through an intuitive and simple-to-use user interface. Its future iterations are expected to provide a richer layer of data analytics, an interactive web GUI, and more extensive API integration.
+An open-source application that enables automated data retrieval, analysis, and visualization of breach and stock data through an intuitive and simple-to-use user interface. 
 
-### Major Features
+Its future iterations are expected to provide a richer layer of data analytics, an interactive web GUI, and more extensive API integration.
 
-The current version of the BreachAnalyzer can perform a number of useful tasks:
+### Major Features in the Current Feature
+
+The current version of the BreachAnalyzer can perform a number of tasks:
 
 **Single Symbol Analysis and Visualization - Price change analysis and visualization of a single stock symbol based on the breach publication date and optionally the breach occurrence date.** Given the stock symbol name of a target organization, and the breach publication date (and optionally the breach occurrence date), the app can perform analysis on the change in the stock price from 7 days prior to the breach publication date (or occurrence date) and up to 14 days after. All parameters are configurable.The app will output the values as text and as a candlestick chart.
 
@@ -31,4 +33,4 @@ The current version supports a command-line interface. To get the complete list 
 
 
 ### Walk-through
-For more details explaination visit www.zeroknowledgeproof.com or https://medium.com/@zeroknowledgeproof
+For the details explaination visit www.zeroknowledgeproof.com or https://medium.com/@zeroknowledgeproof
